@@ -8,4 +8,6 @@ Animals in woods have a sports day where they must form different groups for Tug
 Game is written in Node.js using JavaScript only to manipulate and create DOM elements, almost no HTML code is used. Game uses socket to send saved state to server by Socket.io.
 ### Link
 On this link playable version of this game can be found.
-
+http://dejwoo.com/rp2/
+#### Cheats
+Type 'animalKing' in the game to enable cheats. :)
