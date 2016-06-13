@@ -1,0 +1,486 @@
+{
+  "width": 1280,
+  "height": 960,
+  "currentLevel": 0,
+  "cheat": "animalKing",
+  "animalTypes": {
+    "dog": {
+      "type": "dog",
+      "name": "Dog",
+      "power": 5,
+      "avatar": {
+        "path": "img/dog.svg",
+        "width": 60,
+        "height": 60,
+        "color": "purple"
+      }
+    },
+    "goat": {
+      "type": "goat",
+      "name": "Goat",
+      "power": 3,
+      "avatar": {
+        "path": "img/goat.svg",
+        "width": 60,
+        "height": 60,
+        "color": "orange"
+      }
+    },
+    "bull": {
+      "type": "bull",
+      "name": "Bull",
+      "power": 6,
+      "avatar": {
+        "path": "img/bull.svg",
+        "width": 60,
+        "height": 60,
+        "color": "red"
+      }
+    },
+    "sheep": {
+      "type": "sheep",
+      "name": "sheep",
+      "power": 4,
+      "avatar": {
+        "path": "img/sheep.svg",
+        "width": 60,
+        "height": 60,
+        "color": "blue"
+      }
+    },
+    "duck": {
+      "type": "duck",
+      "name": "Duck",
+      "power": 2,
+      "avatar": {
+        "path": "img/duck.svg",
+        "width": 60,
+        "height": 60,
+        "color": "green"
+      }
+    },
+    "lion": {
+      "type": "lion",
+      "name": "Lion",
+      "power": 7,
+      "avatar": {
+        "path": "img/lion.svg",
+        "width": 60,
+        "height": 60,
+        "color": "yellow"
+      }
+    },
+    "pig": {
+      "type": "pig",
+      "name": "Pig",
+      "power": 4,
+      "avatar": {
+        "path": "img/pig.svg",
+        "width": 60,
+        "height": 60,
+        "color": "pink"
+      }
+    },
+    "rabbit": {
+      "type": "rabbit",
+      "name": "Rabbit",
+      "power": 2,
+      "avatar": {
+        "path": "img/rabbit.svg",
+        "width": 60,
+        "height": 60,
+        "color": "brown"
+      }
+    },
+    "elephant": {
+      "type": "elephant",
+      "name": "Elephant",
+      "power": 8,
+      "avatar": {
+        "path": "img/elephant.svg",
+        "width": 60,
+        "height": 60,
+        "color": "grey"
+      }
+    },
+    "frog": {
+      "type": "frog",
+      "name": "Frog",
+      "power": 2,
+      "avatar": {
+        "path": "img/frog.svg",
+        "width": 60,
+        "height": 60,
+        "color": "green"
+      }
+    },
+    "mouse": {
+      "type": "mouse",
+      "name": "Mouse",
+      "power": 1,
+      "avatar": {
+        "path": "img/mouse.svg",
+        "width": 60,
+        "height": 60,
+        "color": "grey"
+      }
+    },
+    "rhino": {
+      "type": "rhino",
+      "name": "Rhino",
+      "power": 8,
+      "avatar": {
+        "path": "img/rhino.svg",
+        "width": 60,
+        "height": 60,
+        "color": "grey"
+      }
+    }
+  },
+  "animalLegend": {
+    "mouse": [
+      {
+        "multiplier": 1,
+        "animal": "mouse"
+      }
+    ],
+    "goat": [
+      {
+        "multiplier": 1,
+        "animal": "rabbit"
+      },
+      {
+        "multiplier": 1,
+        "animal": "mouse"
+      }
+    ],
+    "bull": [
+      {
+        "multiplier": 1,
+        "animal": "dog"
+      },
+      {
+        "multiplier": 1,
+        "animal": "mouse"
+      }
+    ],
+    "sheep": [
+      {
+        "multiplier": 2,
+        "animal": "frog"
+      }
+    ],
+    "duck": [
+      {
+        "multiplier": 1,
+        "animal": "frog"
+      }
+    ],
+    "lion": [
+      {
+        "multiplier": 1,
+        "animal": "sheep"
+      },
+      {
+        "multiplier": 1,
+        "animal": "goat"
+      }
+    ],
+    "pig": [
+      {
+        "multiplier": 1,
+        "animal": "rabbit"
+      },
+      {
+        "multiplier": 1,
+        "animal": "duck"
+      }
+    ],
+    "rabbit": [
+      {
+        "multiplier": 1,
+        "animal": "duck"
+      }
+    ],
+    "elephant": [
+      {
+        "multiplier": 1,
+        "animal": "bull"
+      },
+      {
+        "multiplier": 1,
+        "animal": "frog"
+      }
+    ],
+    "frog": [
+      {
+        "multiplier": 2,
+        "animal": "mouse"
+      }
+    ],
+    "dog": [
+      {
+        "multiplier": 1,
+        "animal": "rabbit"
+      },
+      {
+        "multiplier": 1,
+        "animal": "mouse"
+      },
+      {
+        "multiplier": 1,
+        "animal": "duck"
+      }
+    ],
+    "rhino": [
+      {
+        "multiplier": 1,
+        "animal": "goat"
+      },
+      {
+        "multiplier": 1,
+        "animal": "dog"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "name": "Level 1",
+      "playgrounds": [
+        {
+          "divider": 1,
+          "id": "woods",
+          "colors": [
+            "darkseagreen"
+          ],
+          "animals": [
+            {
+              "type": "frog"
+            },
+            {
+              "type": "duck"
+            },
+            {
+              "type": "frog"
+            },
+            {
+              "type": "frog"
+            },
+            {
+              "type": "mouse"
+            },
+            {
+              "type": "mouse"
+            },
+            {
+              "type": "goat"
+            },
+            {
+              "type": "mouse"
+            },
+            {
+              "type": "duck"
+            }
+          ],
+          "width": 310,
+          "height": 864
+        },
+        {
+          "divider": 3,
+          "id": "deleno3",
+          "colors": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "animals": [],
+          "width": 310,
+          "height": 864
+        },
+        {
+          "divider": 2,
+          "id": "deleno2",
+          "colors": [
+            "orange",
+            "yellow"
+          ],
+          "width": 310,
+          "height": 864
+        }
+      ]
+    },
+    {
+      "name": "Level 2",
+      "playgrounds": [
+        {
+          "divider": 3,
+          "id": "deleno3",
+          "colors": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "width": 310,
+          "height": 864
+        },
+        {
+          "divider": 1,
+          "id": "woods",
+          "colors": [
+            "darkseagreen"
+          ],
+          "animals": [
+            {
+              "type": "lion"
+            },
+            {
+              "type": "lion"
+            },
+            {
+              "type": "lion"
+            },
+            {
+              "type": "goat"
+            },
+            {
+              "type": "sheep"
+            },
+            {
+              "type": "sheep"
+            },
+            {
+              "type": "rabbit"
+            },
+            {
+              "type": "mouse"
+            }
+          ],
+          "width": 310,
+          "height": 864
+        },
+        {
+          "divider": 2,
+          "id": "deleno2",
+          "colors": [
+            "orange",
+            "yellow"
+          ],
+          "width": 310,
+          "height": 864
+        }
+      ]
+    },
+    {
+      "name": "Level 3",
+      "playgrounds": [
+        {
+          "divider": 2,
+          "id": "deleno3",
+          "colors": [
+            "red",
+            "blue",
+            "green"
+          ],
+          "width": 310,
+          "height": 864
+        },
+        {
+          "divider": 2,
+          "id": "deleno2",
+          "colors": [
+            "orange",
+            "yellow"
+          ],
+          "width": 310,
+          "height": 864
+        },
+        {
+          "divider": 1,
+          "id": "woods",
+          "colors": [
+            "darkseagreen"
+          ],
+          "animals": [
+            {
+              "type": "lion"
+            },
+            {
+              "type": "lion"
+            },
+            {
+              "type": "lion"
+            },
+            {
+              "type": "lion"
+            }
+          ],
+          "width": 310,
+          "height": 864
+        }
+      ]
+    }
+  ],
+  "savedLevel": {
+    "playgrounds": [
+      {
+        "divider": 2,
+        "id": "deleno3",
+        "colors": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "animals": [
+          {
+            "type": "lion",
+            "x": 631,
+            "y": 428,
+            "groupIndex": 0
+          },
+          {
+            "type": "lion",
+            "x": 567,
+            "y": 795,
+            "groupIndex": 1
+          }
+        ]
+      },
+      {
+        "divider": 2,
+        "id": "deleno2",
+        "colors": [
+          "orange",
+          "yellow"
+        ],
+        "animals": [
+          {
+            "type": "lion",
+            "x": 818,
+            "y": 461,
+            "groupIndex": 0
+          },
+          {
+            "type": "lion",
+            "x": 853,
+            "y": 739,
+            "groupIndex": 1
+          }
+        ]
+      },
+      {
+        "divider": 1,
+        "id": "woods",
+        "colors": [
+          "darkseagreen"
+        ],
+        "animals": []
+      }
+    ],
+    "name": "Level 3",
+    "toggledPowers": false,
+    "toggledNames": false,
+    "currentLevel": "2"
+  },
+  "toggledNames": false,
+  "toggledPowers": false
+}

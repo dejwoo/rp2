@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Zvieratka deda lesona</title>
+<style>
+</style>
+</head>
+<body>
+<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="js/lodash.js"></script>
+<script type="text/javascript" src="js/svg.js"></script>
+<script type="text/javascript" src="js/animal.js"></script>
+<script type="text/javascript" src="js/playground.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+<script type="text/javascript" src="js/mygame.js"></script>
+
+<script>
+var app = new myGame();
+console.log(app)
+app.show();
+sock = io.connect();
+function saveGame() {
+	let savedState = app.getState();
+	sock.emit("saveGame",savedState);
+}
+</script>
+</body>
+</html>
